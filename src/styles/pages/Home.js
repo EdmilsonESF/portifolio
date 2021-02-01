@@ -139,7 +139,7 @@ export const DescriptionContairner = styled.div`
 `;
 
 export const Techs = styled.div`
-  width: 50%;
+  width: 70%;
   margin-top: 30px;
   gap: 10px 20px;
   display: grid;

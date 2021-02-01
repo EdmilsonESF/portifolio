@@ -76,10 +76,10 @@ export default function Home() {
           <DescriptionContairner>
             <h1>Edmilson Fonseca</h1>
             <p>Desenvolvedor fullstack </p>
-            <p>com conhecimento nas principais técnologias utilizadas na construção aplicaçoes web. </p>
+            <p>com conhecimento nas principais técnologias utilizadas na construção de aplicaçoes web. </p>
             <Techs>
               {info.techs.map(tech => (
-                <img src={tech}></img>
+                <img key={tech} src={tech}></img>
               ))}
             </Techs>
           </DescriptionContairner>
@@ -89,7 +89,7 @@ export default function Home() {
             <h2>Projetos</h2>
             <Projects>
               {info.projects.map(project => (
-                <Project href={project.url}>
+                <Project key={project.url} href={project.url}>
                   <img src={project.img}/>
                   <div> 
                     <strong>{project.name}</strong>
