@@ -183,20 +183,37 @@ export const Project = styled.a`
 
   color: #ffff;
 
-  div {
+  >div {
     display: flex;
     flex-direction: column;
     width: 50%;
     height: 100%;
     text-align: center;
     padding: 10px;
-
+     justify-content: space-between;
   }
 
   img {
     width: 50%;
     height: 100%;
     object-fit: cover;
+  }
+`;
+
+export const TechUsed = styled.div`
+  width: 90%;
+  /* margin-top: 30px; */
+  gap: 5px 5px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25px, 1fr));
+
+  
+
+  img {
+    width: 25px;
+    height: 25px;
+    background: rgba(255, 255,255, 0.87);
+    border-radius: 3px;
   }
 `;
 

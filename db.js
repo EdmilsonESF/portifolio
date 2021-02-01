@@ -1,39 +1,41 @@
-import img from './src/assets/img.png'
-import quiz from './src/assets/quiz.png'
+import css3 from './src/assets/techs/css3.svg'
+import docker from './src/assets/techs/docker.svg'
+import express from './src/assets/techs/express.svg'
+import git from './src/assets/techs/git.svg'
+import html5 from './src/assets/techs/html5.svg'
+import javascript from './src/assets/techs/javascript.svg'
+import mongodb from './src/assets/techs/mongodb.svg'
+import mysql from './src/assets/techs/mysql.svg'
+import nodejs from './src/assets/techs/nodejs.svg'
+import npm from './src/assets/techs/npm.svg'
+import postgresql from './src/assets/techs/postgresql.svg'
+import react from './src/assets/techs/react.svg'
+import redux from './src/assets/techs/redux.svg'
+import typescript from './src/assets/techs/typescript.svg'
+import yarn from './src/assets/techs/yarn.svg'
+import nextjs from './src/assets/techs/nextjs.svg'
 
-import css3 from './src/assets/css3.svg'
-import docker from './src/assets/docker.svg'
-import express from './src/assets/express.svg'
-import git from './src/assets/git.svg'
-import html5 from './src/assets/html5.svg'
-import javascript from './src/assets/javascript.svg'
-import mongodb from './src/assets/mongodb.svg'
-import mysql from './src/assets/mysql.svg'
-import nodejs from './src/assets/nodejs.svg'
-import npm from './src/assets/npm.svg'
-import postgresql from './src/assets/postgresql.svg'
-import react from './src/assets/react.svg'
-import redux from './src/assets/redux.svg'
-import typescript from './src/assets/typescript.svg'
-import visualstudio from './src/assets/visualstudio.svg'
-import yarn from './src/assets/yarn.svg'
+import img from './src/assets/projects/img.png'
+import quiz from './src/assets/projects/quiz.png'
 
 const info = {
   techs: [
-    css3, docker, express, git, html5, javascript, mongodb, mysql, nodejs, npm, postgresql, react, redux, typescript, visualstudio, yarn
+    css3, html5, javascript, typescript, react, nextjs, redux, nodejs, express, git, mongodb, mysql, postgresql, docker, npm, yarn
   ],
   projects : [
     {
-      name: "teste",
-      description: "lalalal alalalalalalal allalallalalala lalalala lalallalalalal",
+      name: "DataWarehouse",
+      description: "Landingpage fictícia de um banco de armazenamento de dados, totalmente responsiva ",
       img: img,
-      url: "https://landing-page-save-storage.vercel.app/"
+      url: "https://landing-page-save-storage.vercel.app/",
+      techs: [css3, html5, javascript, nextjs, react],
     },
     {
-      name: "quiz",
-      description: "quiz alalalalalalal allalallalalalaquiz",
+      name: "Quiz",
+      description: "Um quiz criado durante um evento sobre NextJs e ReactJs. ",
       img: quiz,
-      url: "https://quiz.edmilsonesf.vercel.app/"
+      url: "https://quiz.edmilsonesf.vercel.app/",
+      techs: [css3, html5, javascript, nextjs, react],
     },
     
   ],

@@ -17,6 +17,7 @@ import {
   ProjectContainer,
   Projects,
   Project,
+  TechUsed,
   Footer,
   FooterContent,
 } from '../styles/pages/Home'
@@ -94,6 +95,11 @@ export default function Home() {
                   <div> 
                     <strong>{project.name}</strong>
                     <p>{project.description}</p>
+                    <TechUsed>
+                      {project.techs.map(tech => (
+                        <img key={tech} src={tech}></img>
+                      ))}
+                    </TechUsed>
                   </div>
                 </Project>
               ) )}
