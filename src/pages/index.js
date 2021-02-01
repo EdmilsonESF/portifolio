@@ -107,8 +107,8 @@ export default function Home() {
         <FooterContent>
           <h3>Contato</h3>
           <div>
-            <p>Email:{` `}{info.contact.email}</p>
-            <p>whatsapp:{` `}{info.contact.whatsapp}</p>
+            <a href={`mailto:${info.contact.email}`} >Email:{` `}{info.contact.email}</a>
+            <a href={`https://web.whatsapp.com/send?phone=${info.contact.whatsapp}`}>whatsapp:{` `}{info.contact.whatsapp}</a>
             <a href={info.contact.github}>Git Hub</a>
           </div>
         </FooterContent>
