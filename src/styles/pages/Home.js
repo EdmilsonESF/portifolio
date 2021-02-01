@@ -146,7 +146,7 @@ export const Techs = styled.div`
   grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
 
   img {
-    background: rgba(255, 255,255, 0.96);
+    background: rgba(255, 255,255, 0.87);
     border-radius: 6px;
   }
 `;
