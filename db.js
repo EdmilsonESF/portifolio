@@ -14,33 +14,42 @@ import redux from './src/assets/techs/redux.svg'
 import typescript from './src/assets/techs/typescript.svg'
 import yarn from './src/assets/techs/yarn.svg'
 import nextjs from './src/assets/techs/nextjs.svg'
+import styled, { padEnd } from './src/assets/techs/styled.jpeg'
 
 import landingpage from './src/assets/projects/landingpage.png'
 import quiz from './src/assets/projects/quiz.png'
 import gitexplorer from './src/assets/projects/gitexplorer.png'
+import gobarber from './src/assets/projects/gobarber.png'
 
 const info = {
   techs: [
-    css3, html5, javascript, typescript, react, nextjs, redux, nodejs, express, git, mongodb, mysql, postgresql, docker, npm, yarn
+    css3, html5, javascript, typescript, react, styled, nextjs, redux, nodejs, express, git, mongodb, mysql, postgresql, docker, npm, yarn
   ],
   projects : [
     {
+      name: "GoBarber",
+      description: `Serviço de agendamento para barbearias, criado durante o bootcamp da Rocketseat. Obs: API não está hospedada. `,
+      img: gobarber,
+      url: "https://gobarber-web-amber.vercel.app/",
+      techs: [css3, html5, typescript, react, styled],
+    },
+    {
       name: "DataWarehouse",
-      description: "Landingpage fictícia de um banco de armazenamento de dados, totalmente responsiva ",
+      description: "Landingpage fictícia de um banco de armazenamento de dados, totalmente responsiva.",
       img: landingpage,
       url: "https://landing-page-save-storage.vercel.app/",
       techs: [css3, html5, javascript, nextjs, react],
     },
     {
       name: "Quiz",
-      description: "Um quiz criado durante um evento sobre NextJs e ReactJs. ",
+      description: "Um quiz criado durante um evento sobre NextJs e ReactJs.",
       img: quiz,
       url: "https://quiz.edmilsonesf.vercel.app/",
       techs: [css3, html5, javascript, nextjs, react],
     },
     {
       name: "Github Explorer",
-      description: "Explorador de repositorios, usando API publica do Github",
+      description: "Explorador de repositorios, usando API publica do Github.",
       img: gitexplorer,
       url: "https://github-explorer-alpha-rosy.vercel.app/",
       techs: [css3, html5, typescript, react],
