@@ -15,8 +15,9 @@ import typescript from './src/assets/techs/typescript.svg'
 import yarn from './src/assets/techs/yarn.svg'
 import nextjs from './src/assets/techs/nextjs.svg'
 
-import img from './src/assets/projects/img.png'
+import landingpage from './src/assets/projects/landingpage.png'
 import quiz from './src/assets/projects/quiz.png'
+import gitexplorer from './src/assets/projects/gitexplorer.png'
 
 const info = {
   techs: [
@@ -26,7 +27,7 @@ const info = {
     {
       name: "DataWarehouse",
       description: "Landingpage fictícia de um banco de armazenamento de dados, totalmente responsiva ",
-      img: img,
+      img: landingpage,
       url: "https://landing-page-save-storage.vercel.app/",
       techs: [css3, html5, javascript, nextjs, react],
     },
@@ -36,6 +37,13 @@ const info = {
       img: quiz,
       url: "https://quiz.edmilsonesf.vercel.app/",
       techs: [css3, html5, javascript, nextjs, react],
+    },
+    {
+      name: "Github Explorer",
+      description: "Explorador de repositorios, usando API publica do Github",
+      img: gitexplorer,
+      url: "https://github-explorer-alpha-rosy.vercel.app/",
+      techs: [css3, html5, typescript, react],
     },
     
   ],
