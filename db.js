@@ -20,6 +20,7 @@ import landingpage from './src/assets/projects/landingpage.png'
 import quiz from './src/assets/projects/quiz.png'
 import gitexplorer from './src/assets/projects/gitexplorer.png'
 import gobarber from './src/assets/projects/gobarber.png'
+import api from './src/assets/projects/api.png'
 
 const info = {
   techs: [
@@ -53,6 +54,13 @@ const info = {
       img: gitexplorer,
       url: "https://github-explorer-alpha-rosy.vercel.app/",
       techs: [css3, html5, typescript, react],
+    },
+    {
+      name: "GoBarber Backend",
+      description: "Api de agendamento para barbearias, criado durante o bootcamp da Rocketseat. ",
+      img: api,
+      url: "https://github.com/EdmilsonESF/back-end-gobarebr.git",
+      techs: [typescript, nodejs, express, mongodb, postgresql, docker,],
     },
     
   ],
