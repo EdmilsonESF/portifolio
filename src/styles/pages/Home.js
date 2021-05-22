@@ -121,7 +121,7 @@ export const Content = styled.div`
 
 `;
 
-export const DescriptionContairner = styled.div`
+export const DescriptionContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -141,9 +141,9 @@ export const DescriptionContairner = styled.div`
 export const Techs = styled.div`
   width: 70%;
   margin-top: 30px;
-  gap: 10px 20px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+  gap: 10px 20px;
 
   img {
     width: 50px;
@@ -152,6 +152,49 @@ export const Techs = styled.div`
     border-radius: 6px;
   }
 `;
+
+export const ContainerCertificate = styled.div`
+  margin-top: 70px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+`
+
+export const Certificate = styled.div`
+  margin-top: 30px;
+  width: 70%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 80px 40px;
+  justify-items: center;
+
+  img {
+    width: 300px;
+    height: 300px;
+    border-radius: 6px;
+
+    &:hover {
+      width: 700px;
+      height: 700px;
+    }
+  }
+
+  @media (max-width: 1000px) {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+    img {
+      width: 200px;
+      height: 200px;
+
+      &:hover {
+        width: 50vw;
+        height: 50vw;
+      }
+    }
+  }
+`
 
 export const ProjectContainer = styled.div`
   display: flex;
@@ -167,9 +210,9 @@ export const ProjectContainer = styled.div`
 export const Projects = styled.div`
   width: 100%;
   margin-top: 70px;
-  gap: 80px 40px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 80px 40px;
 
   @media (max-width: 1000px) {
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));

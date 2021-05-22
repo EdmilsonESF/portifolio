@@ -1,4 +1,6 @@
 import html from '../assets/html.svg'
+import certificateGostack from '../assets/certificado-gostack.png'
+import certificateIgniteNodejs from '../assets/certificado-ignite-nodejs.png'
 import { Turn as Hamburger } from 'hamburger-react'
 import info from '../../db'
 
@@ -12,8 +14,10 @@ import {
   ButtonMenu,
   ContentContainer,
   Content,
-  DescriptionContairner,
+  DescriptionContainer,
   Techs,
+  ContainerCertificate,
+  Certificate,
   ProjectContainer,
   Projects,
   Project,
@@ -74,7 +78,7 @@ export default function Home() {
 
       <ContentContainer  ref={resume}>
         <Content>
-          <DescriptionContairner>
+          <DescriptionContainer>
             <h1>Edmilson Fonseca</h1>
             <p>Desenvolvedor fullstack </p>
             <p>com conhecimento nas principais técnologias utilizadas na construção de aplicaçoes web. </p>
@@ -83,7 +87,16 @@ export default function Home() {
                 <img key={tech} src={tech}></img>
               ))}
             </Techs>
-          </DescriptionContairner>
+
+            <ContainerCertificate>
+              <h2>Certificados</h2>
+              <Certificate>
+                <img src={certificateGostack} alt=""/>
+                <img src={certificateIgniteNodejs} alt=""/>
+              </Certificate>
+            </ContainerCertificate>
+            
+          </DescriptionContainer>
 
 
           <ProjectContainer ref={projects}>
