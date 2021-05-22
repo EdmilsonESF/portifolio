@@ -176,6 +176,7 @@ export const Certificate = styled.div`
     border-radius: 6px;
 
     &:hover {
+      z-index: 2;
       width: 700px;
       height: 700px;
     }
@@ -189,8 +190,11 @@ export const Certificate = styled.div`
       height: 200px;
 
       &:hover {
-        width: 50vw;
-        height: 50vw;
+        position: absolute;
+        z-index: 2;
+        left: 50px;
+        width: 80vw;
+        height: 80vw;
       }
     }
   }
