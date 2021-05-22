@@ -21,6 +21,7 @@ import quiz from './src/assets/projects/quiz.png'
 import gitexplorer from './src/assets/projects/gitexplorer.png'
 import gobarber from './src/assets/projects/gobarber.png'
 import api from './src/assets/projects/api.png'
+import dtmoney from './src/assets/projects/dtmoney.png'
 
 const info = {
   techs: [
@@ -29,10 +30,17 @@ const info = {
   projects : [
     {
       name: "GoBarber",
-      description: `Serviço de agendamento para barbearias, criado durante o bootcamp da Rocketseat. Obs: API não está hospedada. `,
+      description: `Serviço de agendamento para barbearias, criado durante o bootcamp da Rocketseat. Obs: API não está hospedada.`,
       img: gobarber,
       url: "https://gobarber-web-amber.vercel.app/",
       techs: [css3, html5, typescript, react, styled],
+    },
+    {
+      name: "DtMoney",
+      description: `Simples sistema de controle de finanças`,
+      img: dtmoney,
+      url: "https://gobarber-web-amber.vercel.app/",
+      techs: [css3, html5, typescript, react, styled, nextjs],
     },
     {
       name: "DataWarehouse",
@@ -43,14 +51,14 @@ const info = {
     },
     {
       name: "Quiz",
-      description: "Um quiz criado durante um evento sobre NextJs e ReactJs.",
+      description: "Um quiz criado durante um evento da Alura.",
       img: quiz,
       url: "https://quiz.edmilsonesf.vercel.app/",
       techs: [css3, html5, javascript, nextjs, react],
     },
     {
       name: "Github Explorer",
-      description: "Explorador de repositorios, usando API publica do Github.",
+      description: "Explorador de repositorios, usando API pública do Github.",
       img: gitexplorer,
       url: "https://github-explorer-alpha-rosy.vercel.app/",
       techs: [css3, html5, typescript, react],
