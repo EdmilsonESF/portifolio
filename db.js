@@ -37,9 +37,9 @@ const info = {
     },
     {
       name: "DtMoney",
-      description: `Simples sistema de controle de finanças`,
+      description: `Simples sistema de controle financeiro`,
       img: dtmoney,
-      url: "https://gobarber-web-amber.vercel.app/",
+      url: "https://dt-money-alpha.vercel.app/",
       techs: [css3, html5, typescript, react, styled, nextjs],
     },
     {
